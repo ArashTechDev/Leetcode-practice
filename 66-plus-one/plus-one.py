@@ -8,7 +8,7 @@ class Solution:
             newArr = digits
             return newArr
         else:
-            digits[maxIndex] = 0
+            digits[maxIndex] = 
             carry = 1
 
             while carry == 1 and maxIndex > 0:
